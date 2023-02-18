@@ -38,9 +38,9 @@ int main(int ac, char **argv)
 
 /**
  * plitting the string (lineptr) into an array of words
- * calculate the total number of tokens 
+ * calculate the total number of tokens
  */
-		
+
 	token = strtok(lineptr, delim);
 
 		while (token != NULL)
@@ -68,10 +68,10 @@ int main(int ac, char **argv)
 	/* execute the command */
 		execmd(argv);
 	}
-	
+
 /* free up allocated memory */
 	free(lineptr_copy);
 	free(lineptr);
 
-	return(0);
+	return (0);
 }
