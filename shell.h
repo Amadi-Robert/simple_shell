@@ -1,23 +1,8 @@
 
-thedavidinyang
-/
-simple_shell
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-simple_shell/shell.h
-
-David Inyang another commit
- 1 contributor
-233 lines (197 sloc)  5.39 KB
 #ifndef SHELL_H
 #define SHELL_H
 
+#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
